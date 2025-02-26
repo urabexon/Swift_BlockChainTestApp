@@ -2,7 +2,7 @@
 //  Swift_BlockChainTestAppApp.swift
 //  Swift_BlockChainTestApp
 //
-//  Created by 卜部大輝 on 2025/02/26.
+//  Created by Hiroki Urabe on 2025/02/26.
 //
 
 import SwiftUI
