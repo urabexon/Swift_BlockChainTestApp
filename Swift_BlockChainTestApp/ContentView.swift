@@ -1,0 +1,24 @@
+//
+//  ContentView.swift
+//  Swift_BlockChainTestApp
+//
+//  Created by 卜部大輝 on 2025/02/26.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    ContentView()
+}
