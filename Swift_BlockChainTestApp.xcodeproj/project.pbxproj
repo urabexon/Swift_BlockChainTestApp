@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		48E6AF8D2D6F5718003BD8B6 /* Swift_BlockChainTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_BlockChainTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E6AFD22D6F5F69003BD8B6 /* Swift_BlockChainTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_BlockChainTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		48E6AFD42D6F5F69003BD8B6 /* Exceptions for "Swift_BlockChainTestApp" folder in "Swift_BlockChainTestApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Swift-BlockChainTestApp-Info.plist",
+			);
+			target = 48E6AF8C2D6F5718003BD8B6 /* Swift_BlockChainTestApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		48E6AF8F2D6F5718003BD8B6 /* Swift_BlockChainTestApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				48E6AFD42D6F5F69003BD8B6 /* Exceptions for "Swift_BlockChainTestApp" folder in "Swift_BlockChainTestApp" target */,
+			);
 			path = Swift_BlockChainTestApp;
 			sourceTree = "<group>";
 		};
@@ -33,16 +46,8 @@
 			isa = PBXGroup;
 			children = (
 				48E6AF8F2D6F5718003BD8B6 /* Swift_BlockChainTestApp */,
-				48E6AF8E2D6F5718003BD8B6 /* Products */,
+				48E6AFD22D6F5F69003BD8B6 /* Swift_BlockChainTestApp.app */,
 			);
-			sourceTree = "<group>";
-		};
-		48E6AF8E2D6F5718003BD8B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				48E6AF8D2D6F5718003BD8B6 /* Swift_BlockChainTestApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,7 +72,7 @@
 			packageProductDependencies = (
 			);
 			productName = Swift_BlockChainTestApp;
-			productReference = 48E6AF8D2D6F5718003BD8B6 /* Swift_BlockChainTestApp.app */;
+			productReference = 48E6AFD22D6F5F69003BD8B6 /* Swift_BlockChainTestApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +100,7 @@
 			mainGroup = 48E6AF842D6F5718003BD8B6;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 48E6AF8E2D6F5718003BD8B6 /* Products */;
+			productRefGroup = 48E6AF842D6F5718003BD8B6;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -255,6 +260,7 @@
 				DEVELOPMENT_TEAM = X39V762XRA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-BlockChainTestApp-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +290,7 @@
 				DEVELOPMENT_TEAM = X39V762XRA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-BlockChainTestApp-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
